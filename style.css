@@ -1,0 +1,81 @@
+.profile {
+  color: #ededed;
+  padding-top: 160px;
+  padding-right: 30px;
+  margin-right: 30px;
+  padding-left: 120px;
+}
+.but {
+  display: inline-block;
+  padding: 12px 28px;
+  background: linear-gradient(to top left, #99ccff 0%, #ff99cc 100%);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #081b29;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.home-img {
+  padding-top: 70px;
+  border-radius: 50%;
+}
+.score {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.score table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.score th,
+.score td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+.score th {
+  background-color: #f2f2f2;
+}
+.skill {
+  color: rgb(5, 5, 5);
+}
+.contact-text h4 {
+  margin: 15px 0;
+  color: rgb(228, 228, 228);
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact-text p {
+  color: rgb(177, 177, 177);
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list li {
+  display: inline-block;
+  margin-right: 20px; /* Adjust the value as needed */
+}
+.contact-list li {
+  display: inline-block;
+  color: #99ccff;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.4s ease;
+  justify-content: center;
+}
+
+.skill.table {
+  border-collapse: separate;
+  border-spacing: 10px; /* Adjust the value as needed */
+}
+td {
+  padding: 70px;
+}
